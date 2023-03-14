@@ -9,10 +9,12 @@ Configuration ServiceConfig {
   Import-DscResource -ModuleName PSDesiredStateConfiguration
   
   Node "IISNLDEL-NB0113" {
-    Service SpoolerService {
-      Name = "Spooler"
+    Service TroubleShootingService {
+      Name = "TroubleshootingSvc"
       State = "Running"
       StartupType = "Automatic"
     }
   }
 }
+
+ServiceConfi
