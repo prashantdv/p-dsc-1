@@ -17,4 +17,4 @@ Configuration ServiceConfig {
   }
 }
 
-ServiceConfi
+ServiceConfig
