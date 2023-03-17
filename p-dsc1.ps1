@@ -10,10 +10,14 @@ Configuration ServiceConfig {
   
   Node "IISNLDEL-NB0113" {
     Service TroubleShootingService {
-      Name = "TroubleshootingSvc"
+      Name = "WdiSystemHost"
       State = "Running"
       StartupType = "Automatic"
     }
+    LocalConfigurationManager {
+      ConfigurationMode = 'ApplyAndAutoCorrect'
+      
+  }
   }
 }
 
